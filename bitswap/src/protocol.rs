@@ -9,7 +9,7 @@ use libp2p_rs::swarm::connection::Connection;
 use libp2p_rs::swarm::protocol_handler::{IProtocolHandler, Notifiee, ProtocolHandler};
 use libp2p_rs::swarm::substream::Substream;
 use libp2p_rs::swarm::Control as SwarmControl;
-use libp2p_rs::traits::{ReadEx, WriteEx};
+use libp2p_rs::core::{ReadEx, WriteEx};
 
 use crate::ledger::Message;
 use crate::{Block, BS_PROTO_ID};
